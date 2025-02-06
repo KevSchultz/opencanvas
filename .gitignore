@@ -136,4 +136,4 @@ dist
 .pnp.*
 
 # database
-dbDir/
+database/
