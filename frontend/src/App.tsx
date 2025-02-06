@@ -62,7 +62,7 @@ export default function App() {
   const doc = new Y.Doc();
 
   // Set up a y-websocket provider.
-  const provider = new WebsocketProvider("ws://localhost:1234", "internet", doc);
+  const provider = new WebsocketProvider("ws://opencanvas.online:1234", "internet", doc);
 
   // Initialize BlockNote with collaboration enabled.
   const editor = useCreateBlockNote({
